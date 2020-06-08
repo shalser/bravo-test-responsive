@@ -26,7 +26,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7a715f6-8c9b-4b8b-9aab-84b85fa6c5a6" name="Default Changelist" comment="" />
+    <list default="true" id="f7a715f6-8c9b-4b8b-9aab-84b85fa6c5a6" name="Default Changelist" comment="add .idea in ignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +69,16 @@
       <option name="presentableId" value="Default" />
       <updated>1590504638290</updated>
       <workItem from="1590504662787" duration="46000" />
+      <workItem from="1591551337723" duration="729000" />
     </task>
+    <task id="LOCAL-00001" summary="add .idea in ignore">
+      <created>1591551569063</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591551569063</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,5 +112,19 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add .idea in ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .idea in ignore" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="595" y="248" key="Vcs.Push.Dialog.v2" timestamp="1591551573276">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="595" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591551573276" />
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591551632580">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591551632580" />
   </component>
 </project>
