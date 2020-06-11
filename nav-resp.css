@@ -110,6 +110,24 @@
   }
 }
 
+@media (max-width: 425px) {
+  .sh-menu-blocks {
+    left: 115px;
+  }
+}
+
+@media (max-width: 370px) {
+  .sh-menu-blocks {
+    left: 90px;
+  }
+}
+
+@media (max-width: 369px) {
+  .sh-menu-blocks {
+    left: 65px;
+  }
+}
+
 .sh-menu-blocks .item {
   font-size: 35px;
   font-family: Roboto;

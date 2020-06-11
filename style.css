@@ -227,6 +227,12 @@ a {
   color: #898686;
 }
 
+@media (max-width: 320px) {
+  .wrap-header .header .header-right .header-right-wrap .left-side .text {
+    font-size: 12px;
+  }
+}
+
 .wrap-header .header .header-right .header-right-wrap .middle {
   cursor: pointer;
   display: -webkit-box;
@@ -263,6 +269,12 @@ a {
   color: #898686;
 }
 
+@media (max-width: 320px) {
+  .wrap-header .header .header-right .header-right-wrap .middle .text {
+    font-size: 12px;
+  }
+}
+
 .wrap-header .header .header-right .header-right-wrap .right-side {
   cursor: pointer;
   display: -webkit-box;
@@ -297,6 +309,12 @@ a {
   font-size: 14px;
   line-height: 20px;
   color: #898686;
+}
+
+@media (max-width: 320px) {
+  .wrap-header .header .header-right .header-right-wrap .right-side .text {
+    font-size: 12px;
+  }
 }
 
 .header-nav-wrap {
@@ -815,6 +833,9 @@ a {
   .advantages-wrap .advantages {
     width: 100%;
     max-width: 640px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -822,6 +843,19 @@ a {
   .advantages-wrap .advantages {
     width: 100%;
     max-width: 520px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .advantages-wrap .advantages {
+    width: 100%;
+    min-width: 300px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -1140,6 +1174,13 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+}
+
+@media (max-width: 500px) {
+  .offer-buttons-wrap .offer-buttons .offer-buttons-right-wrap {
+    width: 100%;
+    min-width: 295px;
   }
 }
 
@@ -2465,6 +2506,16 @@ a {
   }
 }
 
+@media (max-width: 347px) {
+  .section-main-wrap .section-main .section-main-right .section-main-title {
+    width: 100%;
+    max-width: 300px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .section-main-wrap .section-main .section-main-right .section-main-title .section-main-title-button {
   width: 100%;
   display: -webkit-box;
@@ -2488,6 +2539,17 @@ a {
 @media (max-width: 624px) {
   .section-main-wrap .section-main .section-main-right .section-main-title .section-main-title-button {
     width: 100%;
+  }
+}
+
+@media (max-width: 624px) {
+  .section-main-wrap .section-main .section-main-right .section-main-title .section-main-title-button {
+    width: 100%;
+    min-width: 320px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -3034,6 +3096,18 @@ a {
   color: #FFFFFF;
 }
 
+@media (max-width: 385px) {
+  .about-wrap .about .about-right .about-right-left .about-right-left-content .about-title {
+    font-size: 47px;
+  }
+}
+
+@media (max-width: 320px) {
+  .about-wrap .about .about-right .about-right-left .about-right-left-content .about-title {
+    font-size: 45px;
+  }
+}
+
 .about-wrap .about .about-right .about-right-left .about-right-left-content .about-text {
   width: 100%;
   max-width: 486px;
@@ -3048,6 +3122,14 @@ a {
 @media (max-width: 1024px) {
   .about-wrap .about .about-right .about-right-left .about-right-left-content .about-text {
     font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-wrap .about .about-right .about-right-left .about-right-left-content .about-text {
+    font-size: 13px;
+    max-width: 400px;
+    height: 292px;
   }
 }
 
@@ -3420,6 +3502,20 @@ a {
   }
 }
 
+@media (max-width: 500px) {
+  .blog-wrap .blog .blog-right .blog-right-left .blog-right-left-content {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .blog-wrap .blog .blog-right .blog-right-left .blog-right-left-content {
+    width: 100%;
+    max-width: 260px;
+  }
+}
+
 .blog-wrap .blog .blog-right .blog-right-left .blog-right-left-content .blog-title {
   font-style: normal;
   font-weight: normal;
@@ -3443,6 +3539,14 @@ a {
     width: 100%;
     max-width: 390px;
     margin-bottom: 17px;
+  }
+}
+
+@media (max-width: 500px) {
+  .blog-wrap .blog .blog-right .blog-right-left .blog-right-left-content .blog-text {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 41px;
   }
 }
 
@@ -3470,6 +3574,15 @@ a {
   .blog-wrap .blog .blog-right .blog-right-left .blog-right-left-content .blog-button-line {
     width: 100%;
     max-width: 100px;
+  }
+}
+
+@media (max-width: 500px) {
+  .blog-wrap .blog .blog-right .blog-right-left .blog-right-left-content .blog-button-line {
+    width: 100%;
+    max-width: 100px;
+    position: relative;
+    top: 11px;
   }
 }
 
@@ -4067,6 +4180,12 @@ a {
   }
 }
 
+@media (max-width: 500px) {
+  .footer-wrap .footer .footer-blocks .footer-blocks-nav-mob {
+    min-width: 162px;
+  }
+}
+
 .footer-wrap .footer .footer-blocks .footer-blocks-nav-mob .footer-blocks-nav-company-mob {
   width: 33.3%;
 }
@@ -4456,6 +4575,12 @@ a {
   }
 }
 
+@media (max-width: 500px) {
+  .footer-wrap .footer .footer-blocks .footer-blocks-info {
+    min-width: 203px;
+  }
+}
+
 .footer-wrap .footer .footer-blocks .footer-blocks-info .footer-blocks-info-ul {
   width: 100%;
   display: -webkit-box;
@@ -4684,6 +4809,12 @@ a {
   }
 }
 
+@media (max-width: 500px) {
+  .footer-wrap .footer .footer-blocks .footer-blocks-contacts {
+    min-width: 158px;
+  }
+}
+
 .footer-wrap .footer .footer-blocks .footer-blocks-contacts .footer-ul {
   width: 100%;
   display: -webkit-box;
@@ -4898,6 +5029,12 @@ a {
   color: #6E6E6E;
 }
 
+@media (max-width: 320px) {
+  .footer-wrap .subfooter-wrap .subfooter .subfooter-copyrights .copyrights {
+    font-size: 12px;
+  }
+}
+
 .footer-wrap .subfooter-wrap .subfooter .subfooter-copyrights .privacy {
   width: 33.3%;
   text-align: center;
@@ -4906,6 +5043,12 @@ a {
   font-size: 14px;
   line-height: 20px;
   color: #6E6E6E;
+}
+
+@media (max-width: 320px) {
+  .footer-wrap .subfooter-wrap .subfooter .subfooter-copyrights .privacy {
+    font-size: 12px;
+  }
 }
 
 .footer-wrap .subfooter-wrap .subfooter .subfooter-copyrights .privacy a {
@@ -4920,6 +5063,12 @@ a {
   font-size: 14px;
   line-height: 20px;
   color: #6E6E6E;
+}
+
+@media (max-width: 320px) {
+  .footer-wrap .subfooter-wrap .subfooter .subfooter-copyrights .developer {
+    font-size: 12px;
+  }
 }
 
 .footer-wrap .subfooter-wrap .subfooter .subfooter-copyrights .subfooter-sh {

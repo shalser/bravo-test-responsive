@@ -26,10 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7a715f6-8c9b-4b8b-9aab-84b85fa6c5a6" name="Default Changelist" comment="add responsive">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f7a715f6-8c9b-4b8b-9aab-84b85fa6c5a6" name="Default Changelist" comment="fix gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +68,7 @@
       <updated>1590504638290</updated>
       <workItem from="1590504662787" duration="46000" />
       <workItem from="1591551337723" duration="729000" />
-      <workItem from="1591611787634" duration="577000" />
+      <workItem from="1591611787634" duration="742000" />
     </task>
     <task id="LOCAL-00001" summary="add .idea in ignore">
       <created>1591551569063</created>
@@ -87,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591611917912</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix gitignore">
+      <created>1591612526838</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591612526838</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,13 +129,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add .idea in ignore" />
     <MESSAGE value="add responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="add responsive" />
+    <MESSAGE value="fix gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix gitignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="652" y="193" key="Vcs.Push.Dialog.v2" timestamp="1591611948179">
+    <state x="652" y="193" key="Vcs.Push.Dialog.v2" timestamp="1591612529625">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="652" y="193" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591611948179" />
+    <state x="652" y="193" key="Vcs.Push.Dialog.v2/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591612529625" />
     <state x="769" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591611853311">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

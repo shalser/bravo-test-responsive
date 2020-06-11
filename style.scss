@@ -141,6 +141,9 @@ a {
                         font-size: 14px;
                         line-height: 20px;
                         color: #898686;
+                        @media (max-width: 320px) {
+                            font-size: 12px;
+                        }
                     }
                 }
                 .middle {
@@ -165,6 +168,9 @@ a {
                         font-size: 14px;
                         line-height: 20px;
                         color: #898686;
+                        @media (max-width: 320px) {
+                            font-size: 12px;
+                        }
                     }
                 }
                 .right-side {
@@ -189,6 +195,9 @@ a {
                         font-size: 14px;
                         line-height: 20px;
                         color: #898686;
+                        @media (max-width: 320px) {
+                            font-size: 12px;
+                        }
                     }
                 }
             }
@@ -558,10 +567,17 @@ a {
         @media (max-width: 662px) {
             width: 100%;
             max-width: 640px;
+            justify-content: center;
         }
         @media (max-width: 566px) {
             width: 100%;
             max-width: 520px;
+            justify-content: center;
+        }
+        @media (max-width: 375px) {
+            width: 100%;
+            min-width: 300px;
+            justify-content: center;
         }
         .advantages-left-side {
             width: 100%;
@@ -755,6 +771,10 @@ a {
             display: flex;
             @media (max-width: 673px) {
                 flex-direction: column;
+            }
+            @media (max-width: 500px) {
+                width: 100%;
+                min-width: 295px;
             }
             .offer-buttons-left {
                 width: 100%;
@@ -1619,6 +1639,11 @@ a {
                     width: 100%;
                     max-width: 580px;
                 }
+                @media (max-width: 347px) {
+                    width: 100%;
+                    max-width: 300px;
+                    justify-content: center;
+                }
                 .section-main-title-button {
                     width: 100%;
                     display: flex;
@@ -1630,6 +1655,11 @@ a {
                     }
                     @media (max-width: 624px) {
                         width: 100%;
+                    }
+                    @media (max-width: 624px) {
+                        width: 100%;
+                        min-width: 320px;
+                        flex-direction: column;
                     }
                     .main-title {
                         font-family: Playfair Display;
@@ -1968,6 +1998,12 @@ a {
                         font-size: 55px;
                         line-height: 60px;
                         color: #FFFFFF;
+                        @media (max-width: 385px) {
+                            font-size: 47px;
+                        }
+                        @media (max-width: 320px) {
+                            font-size: 45px;
+                        }
                     }
                     .about-text {
                         width: 100%;
@@ -1980,6 +2016,11 @@ a {
                         color: #FFFFFF;
                         @media (max-width: 1024px) {
                             font-size: 14px;
+                        }
+                        @media (max-width: 400px) {
+                            font-size: 13px;
+                            max-width: 400px;
+                            height: 292px;
                         }
                     }
                     .about-button-line {
@@ -2202,6 +2243,14 @@ a {
                         width: 100%;
                         max-width: 440px;
                     }
+                    @media (max-width: 500px) {
+                        width: 100%;
+                        max-width: 300px;
+                    }
+                    @media (max-width: 320px) {
+                        width: 100%;
+                        max-width: 260px;
+                    }
                     .blog-title {
                         font-style: normal;
                         font-weight: normal;
@@ -2222,6 +2271,11 @@ a {
                             max-width: 390px;
                             margin-bottom: 17px;
                         }
+                        @media (max-width: 500px) {
+                            width: 100%;
+                            max-width: 300px;
+                            margin-bottom: 41px;
+                        }
                     }
                     .blog-button-line {
                         display: flex;
@@ -2233,6 +2287,12 @@ a {
                         @media (max-width: 550px) {
                             width: 100%;
                             max-width: 100px;
+                        }
+                        @media (max-width: 500px) {
+                            width: 100%;
+                            max-width: 100px;
+                            position: relative;
+                            top: 11px;
                         }
                         .blog-button {
                             width: 70px;
@@ -2625,6 +2685,9 @@ a {
                 @media (max-width: 550px) {
                     width: 28.8%;
                 }
+                @media (max-width: 500px) {
+                    min-width: 162px;
+                }
                 .footer-blocks-nav-company-mob {
                     width: 33.3%;
                     @media (max-width: 1230px) {
@@ -2884,6 +2947,9 @@ a {
                 @media (max-width: 576px) {
                     width: 38%;
                 }
+                @media (max-width: 500px) {
+                    min-width: 203px;
+                }
                 .footer-blocks-info-ul {
                     width: 100%;
                     display: flex;
@@ -3038,6 +3104,9 @@ a {
                 @media (max-width: 552px) {
                     width: 31%;
                 }
+                @media (max-width: 500px) {
+                    min-width: 158px;
+                }
                 .footer-ul {
                     width: 100%;
                     display: flex;
@@ -3170,6 +3239,9 @@ a {
                     font-size: 14px;
                     line-height: 20px;
                     color: #6E6E6E;
+                    @media (max-width: 320px) {
+                        font-size: 12px;
+                    }
                 }
                 .privacy {
                     width: 33.3%;
@@ -3179,6 +3251,9 @@ a {
                     font-size: 14px;
                     line-height: 20px;
                     color: #6E6E6E;
+                    @media (max-width: 320px) {
+                        font-size: 12px;
+                    }
                     a {
                         color: #6E6E6E;
                     }
@@ -3191,6 +3266,9 @@ a {
                     font-size: 14px;
                     line-height: 20px;
                     color: #6E6E6E;
+                    @media (max-width: 320px) {
+                        font-size: 12px;
+                    }
                 }
                 .subfooter-sh {
                     width: 25px;
